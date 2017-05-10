@@ -1,3 +1,4 @@
 BMI Project
 
 This a project to test our javascript skills
+https://github.com/arturas12/BMI/invitations

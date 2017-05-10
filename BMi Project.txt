@@ -1,0 +1,3 @@
+BMI Project
+
+This a project to test our javascript skills

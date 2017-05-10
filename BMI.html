@@ -1,8 +1,4 @@
 <html>
-
-<head>
-  <script>
-
 <title>Webpage</title>
 <head>
     <title>BMI Checker</title>
@@ -12,21 +8,13 @@
    href = "Homepage.css" />
 </head>
     <script>
-
 <!--
 function calculateBmi() {
 var weight = document.bmiForm.weight.value
 var height = document.bmiForm.height.value
 if(weight > 0 && height > 0){	
-
 var finalBmi = weight/(height/100*height/100)
 document.bmiForm.bmi.value = finalBmi
-
-var finalBmi = Math.round(weight/(height/100*height/100))
-document.bmiForm.bmi.value = finalBmi
-
-
-
 if(finalBmi < 18.5){
 document.bmiForm.meaning.value = "UnderWeight."
 }
@@ -44,44 +32,23 @@ else{
 alert("Please Fill in everything")
 }
 }
-
 //-->
 </script>
-   </head>
-<body><form name="bmiForm">
-Your Weight(kg): <input type="text" name="weight" size="10"><br />
-Your Height(cm): <input type="text" name="height" size="10"><br />
-  <br>
-<input type="button" value="Calculate BMI" onClick="calculateBmi()"><br />
-  <br>
-Your BMI: <input type="text" name="bmi" size="10"><br />
-Measure: <input type="text" name="meaning" size="25"><br />
-  <br>
-<input type="reset" value="Reset" />
-</form>
-  </body>
-
-</html>
-
-
-
-</script>
-<body background="maxresdefault.jpg">
+<body>
     
         	<div class= "nav">
             	<a href="Homepage.html">Home</a>
                 <a href="BMI.html">BMI</a>
             </div>
-   <h2>Body Mass Index Calculator</h2>
     
     <form name="bmiForm">
-<input type="number" name="weight" size="10" placeholder="Your Weight(kg).." ><br />
-<input type="number" name="height" size="10" placeholder="Your Height(cm).."><br />
+<input type="text" name="weight" size="10" placeholder="Your Weight(kg).." ><br />
+<input type="text" name="height" size="10" placeholder="Your Height(cm).."><br />
   <br>
 <input type="button" value="Calculate BMI" onClick="calculateBmi()"><br />
   <br>
-<input type="number" name="bmi" size="10" placeholder="Your BMI.."><br />
-<input type="TEXT" name="meaning" size="25" placeholder="You are.." ><br />
+<input type="text" name="bmi" size="10" placeholder="Your BMI.."><br />
+<input type="text" name="meaning" size="25" placeholder="You are.." ><br />
   <br>
 <input type="reset" value="Reset" />
 </form>
@@ -90,4 +57,4 @@ Measure: <input type="text" name="meaning" size="25"><br />
     </body>
     
 </html>
-
+    

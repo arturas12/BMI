@@ -1,15 +1,6 @@
-body {
-margin: auto
-  
+body{
+    margin:auto;
 }
-
-h2 {
-    color: red;
-  text-align: center ;
-    font-family:  Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";
-  font-size: 35px;
-  text-shadow:9px 10px 1px #000000;
-  }
 
 
 .nav {
@@ -20,11 +11,13 @@ h2 {
 .nav a {
   display: inline-block;
   color: #f2f2f2;
-  position: relative; left: 600px;
   text-align: center;
-  padding: 15px 17px;
+  padding: 24px 56px;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 17px;
+  position: relative;
+  left: 500px;
+    
 }
 
 .nav a:hover {
@@ -37,8 +30,7 @@ h2 {
     color: white;
 }
 
-
-input[type=number], select {
+input[type=text], select {
     width: 30%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -47,11 +39,8 @@ input[type=number], select {
     border-radius: 4px;
     position: relative;
     left: 480px;
-    top: 0px;
+    top: 100px;
     box-sizing: border-box;
-  box-shadow: 6px 10px 7px #000000;
- 
-  
     
 }
 
@@ -66,8 +55,7 @@ input[type=button] {
     cursor: pointer;
     position: relative;
     left: 480px;
-    top: 0px;
-   box-shadow: 6px 10px 7px #000000;
+    top: 90px;
 }
 
 input[type=reset] {
@@ -81,9 +69,8 @@ input[type=reset] {
     cursor: pointer;
     position: relative;
     left: 610px;
-    top: 0px;
+    top: 90px;
     transition: width 2s;
-   box-shadow: 6px 10px 7px #000000;
 }
 
 input[type=button]:hover {
@@ -93,17 +80,28 @@ input[type=button]:hover {
 input[type=reset]:hover {
     background-color: #fb7d7d;
 }
-input[type=TEXT], select {
-    width: 30%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+
+h1 {
+    text-align: center;
+}
+
+p. {
+    width: 6em; 
+    border: 1px solid #ffffff;
+    word-wrap: break-word;
     position: relative;
-    left: 480px;
-    top: 0px;
-    box-sizing: border-box;
-  box-shadow: 6px 10px 7px #000000;
-    
+    left: 50px;
+}
+article {
+    margin-left: 670px;
+    border-left: 1px solid whitesmoke;
+    padding: 1em;
+    overflow: hidden;
+}
+.boxed {
+  height: 500px;
+  width: 1000px;
+  position: relative;
+  left: 180px;
+}
     

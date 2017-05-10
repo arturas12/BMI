@@ -1,0 +1,107 @@
+body{
+    margin:auto;
+}
+
+
+.nav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.nav a {
+  display: inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 24px 56px;
+  text-decoration: none;
+  font-size: 17px;
+  position: relative;
+  left: 500px;
+    
+}
+
+.nav a:hover {
+  background-color: #e7e7e7;
+  color: black;
+}
+
+.nav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+input[type=text], select {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    position: relative;
+    left: 480px;
+    top: 100px;
+    box-sizing: border-box;
+    
+}
+
+input[type=button] {
+    width: 30%;
+    background-color: #fb4949;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    position: relative;
+    left: 480px;
+    top: 90px;
+}
+
+input[type=reset] {
+    width: 10%;
+    background-color: #fb4949;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    position: relative;
+    left: 610px;
+    top: 90px;
+    transition: width 2s;
+}
+
+input[type=button]:hover {
+    background-color: #fb7d7d;
+}
+
+input[type=reset]:hover {
+    background-color: #fb7d7d;
+}
+
+h1 {
+    text-align: center;
+}
+
+p. {
+    width: 6em; 
+    border: 1px solid #ffffff;
+    word-wrap: break-word;
+    position: relative;
+    left: 50px;
+}
+article {
+    margin-left: 670px;
+    border-left: 1px solid whitesmoke;
+    padding: 1em;
+    overflow: hidden;
+}
+.boxed {
+  height: 500px;
+  width: 1000px;
+  position: relative;
+  left: 180px;
+}
+    

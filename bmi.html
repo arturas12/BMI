@@ -1,4 +1,8 @@
 <html>
+
+<head>
+  <script>
+
 <title>Webpage</title>
 <head>
     <title>BMI Checker</title>
@@ -8,13 +12,19 @@
    href = "Homepage.css" />
 </head>
     <script>
+
 <!--
 function calculateBmi() {
 var weight = document.bmiForm.weight.value
 var height = document.bmiForm.height.value
 if(weight > 0 && height > 0){	
+
+var finalBmi = weight/(height/100*height/100)
+document.bmiForm.bmi.value = finalBmi
+
 var finalBmi = Math.round(weight/(height/100*height/100))
 document.bmiForm.bmi.value = finalBmi
+
 
 
 if(finalBmi < 18.5){
@@ -34,6 +44,26 @@ else{
 alert("Please Fill in everything")
 }
 }
+
+//-->
+</script>
+   </head>
+<body><form name="bmiForm">
+Your Weight(kg): <input type="text" name="weight" size="10"><br />
+Your Height(cm): <input type="text" name="height" size="10"><br />
+  <br>
+<input type="button" value="Calculate BMI" onClick="calculateBmi()"><br />
+  <br>
+Your BMI: <input type="text" name="bmi" size="10"><br />
+Measure: <input type="text" name="meaning" size="25"><br />
+  <br>
+<input type="reset" value="Reset" />
+</form>
+  </body>
+
+</html>
+
+
 
 </script>
 <body background="maxresdefault.jpg">
@@ -60,3 +90,4 @@ alert("Please Fill in everything")
     </body>
     
 </html>
+
